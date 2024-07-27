@@ -1,0 +1,14 @@
+package com.example.stock_manager_config_server;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@EnableConfigServer
+@SpringBootApplication
+public class StockManagerConfigServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(StockManagerConfigServerApplication.class, args);
+	}
+
+}
